@@ -1,0 +1,7 @@
+title: あとりえりありて
+url: "https://atelier-realite.github.io/"
+
+# Build settings
+markdown: kramdown
+theme: minima
+timezone: Asia/Tokyo
