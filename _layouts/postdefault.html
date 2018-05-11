@@ -1,0 +1,7 @@
+{% include header.html %}
+<h5>{{ page.title }} | {{ page.date | date_to_string }}</h5>
+
+    {{ content }}
+
+    ( {{ page.writername }} )
+{% include footer.html %}
