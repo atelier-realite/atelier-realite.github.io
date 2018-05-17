@@ -19,7 +19,13 @@ layout: default
       メンバー
       <ul>
         <li>yuri🍎</li>
-        <li>moe🎧</li>
+        <li>chano2</li>
+        <li>kana</li>
+        <li>arahori</li>
+        <li>ca7mi</li>
+        <li>moe🎧</li>
+        <li>sentomo</li>
+        <li>nishii☔</li>
       </ul>
       <!--<h2>卒業生</h2>
       <ul>
