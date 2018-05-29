@@ -24,7 +24,7 @@ layout: default
         <li>arahori</li>
         <li>ca7mi</li>
         <li>moe🎧</li>
-        <li>sentomo</li>
+        <li><a href=https://twitter.com/sentomo594>sentomo🐼</a></li>
         <li>nishii☔</li>
       </ul>
       <!--<h2>卒業生</h2>
