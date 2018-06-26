@@ -1,18 +1,29 @@
 ---
 layout: default
 ---
-
+<div class="title">
 <h2>アトリエリアリテとは？</h2>
+</div>
+<div class="container-fluid">
 <ul>
   <li>VRに興味を持っているメンバーがもくもく創作活動する集団です</li>
   <li>活動状況などもお伝えしていきます</li>
   <li>現在リコーITソリューションズに所属するメンバーが主となり活動していますが、一緒にもくもくしたい方はぜひお声がけください</li>
 </ul>
+</div>
 <hr>
 
+<div class="title">
+<h2>関連リンク</h2>
+</div>
+<div class="container-fluid">
 {% include sns.html %}
-
+</div>
 <hr>
+
+<div class="title">
+<h2>アトリエリアリテとは？</h2>
+</div>
 <div class="container-fluid">
   <div class="row">
     <div class="col">
@@ -35,7 +46,7 @@ layout: default
     <div class="col">
       応援団
       <ul>
-        <li>確認中</li>
+        <li>募集中</li>
       </ul>
     </div>
     <div class="col">
@@ -48,15 +59,23 @@ layout: default
 </div><!-- container-fluid -->
 <hr>
 
-<h2>入部希望者向けリンク</h2>
-準備中
 
+<div class="title">
+<h2>入部希望者向け情報</h2>
+</div>
+<div class="container-fluid">
+<a href= "https://docs.google.com/forms/d/e/1FAIpQLSe6slBOk3rHsP4uCjcttQe7-Jt1f066tngfmaflT5sfnmcyyQ/viewform" target="_blank">入部申請する（Googleフォームでの登録となります）</a><br/>
+メンバーも応援団もシショーも募集中です。何するの？というのはメンバーを直接つかまえて聞いたり、SNSからお声掛けください。
+</div>
 <hr>
 
-メンバーのつぶやき＞＞＞
-
+<div class="title">
+<h2>つぶやきとお知らせ</h2>
+</div>
+<div class="container-fluid">
 {% for post in site.categories.repo %}
   <div>
     {{ post.date | date: "%Y.%m.%d" }} <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
   </div>
 {% endfor %}
+</div>
