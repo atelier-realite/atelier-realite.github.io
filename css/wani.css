@@ -1,1 +1,54 @@
 html { font-family: "Rounded Mplus 1c"; }
+body{
+  margin: 0;
+  background-image : url(/img/logo.png);
+  background-repeat : no-repeat;
+  background-attachment : fixed;
+  background-position :right bottom;
+}
+.all {
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.5); 
+}
+.header,.main,.footer,img { width: 100%;}
+.title {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.container-fluid {
+  padding:0 1em;
+}
+h1 {
+  margin-top: 50px;
+}
+h2 {
+  position: relative;
+  color: #333333;
+  display: inline-block;
+  margin: 47px 0;
+  text-shadow: 0 0 2px white;
+}
+h2:before {
+  content: "";
+  position: absolute;
+  background: #66cdaa;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  top: 50%;
+  /* border: dashed 1px white; */
+  left: 50%;
+  -moz-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  z-index: -1;
+}
+hr{border: dashed 1px #66cdaa;}
+a{color: #008080;}
+a:hover{
+  filter:alpha(opacity=60);
+  opacity:0.6;
+}
