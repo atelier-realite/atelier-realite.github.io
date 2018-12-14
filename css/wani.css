@@ -11,7 +11,11 @@ body{
   margin: 0 auto;
   background: rgba(255,255,255,0.5); 
 }
-.header,.main,.footer,img { width: 100%;}
+.main,.footer,img { width: 100%;}
+.header {
+  text-align: center;
+  width: 100%;
+}
 .title {
   text-align: center;
   max-width: 400px;
